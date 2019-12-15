@@ -6,26 +6,27 @@
         <meta charset="utf-8" />
         <title>My first web page - KSI - Adèle Cheval</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     </head>
 
     <body>
         
         <div id="haut_page"></div>
 
-        <p>
+        <div>
         <img src="images/logoKSI.png" width="6%" alt="Le logo de KSI"> <!-- alt (pour alternatif) = texte 
             de remplacement si la photo ne s'affiche pas -->
         
         <img src="images/logoCNJE.png" width="9%" alt="Le logo de la CNJE"> <!-- j'aurais voulu mettre ce 
             logo en haut à droite de la page mais je n'ai pas réussi -->
-        </p>
+        </div>
 
         <div class="header">
             <h1> KSI Centrale Marseille </h1>
             <h2>La Junior-Entreprise® de l'École centrale de Marseille</h2>
         </div>
 
-        <div id="col">
+        <div id="conteneur1">
             <div id="premier"> 
                 <h2 class="titre">Qui sommes-nous ?</h2>
                 <p class="paragraphe"> Fondée en 1974, KSI Centrale Marseille était à l’origine une entreprise étudiante 
@@ -42,8 +43,24 @@
                 qui regroupe les 30 meilleures Junior-Entreprises® de France.</p>
             </div>
 
-            
+            <div id="deuxieme">
+                <h2 class="titre">Qu'est-ce qu'une Junior-Entreprise® ?</h2>
+                <p class="paragraphe">Les Junior-Entreprises (J.E.) sont des associations à vocation économique 
+                et pédagogique, à but non lucratif. Associations étudiantes implantées 
+                dans les établissements d’enseignement supérieur, les Junior-Entreprises 
+                se définissent comme un vecteur d’employabilité et d’engagement des 
+                étudiants. En leur permettant de mettre en pratique l’enseignement 
+                théorique qu’ils reçoivent, les Junior-Entreprises constituent une 
+                passerelle entre les études et l’entreprise, au service de l’insertion 
+                professionnelle des étudiants. Ainsi, elles proposent des services 
+                aux entreprises et permettent aux étudiants de mettre en pratique 
+                leurs savoirs en répondant aux besoins de clients variés : 
+                grands groupes, ETI, PME, TPE, administration ou particulier.</p>
+            </div>
+        </div>
 
+
+<div id="conteneur2">
             <div id="troisieme"> <!-- J'ai du inverser les paragraphes 2 et 3 parce que quand on les mets 
                 en colonne, le html occupe dans l'ordre toute la première colonne puis toute la deuxième -->
                 <h2 class="titre">Notre équipe</h2>
@@ -51,20 +68,7 @@
                     occupe toute la largeur du navigateur -->
             </div>
 
-            <div id="deuxieme">
-                    <h2 class="titre">Qu'est-ce qu'une Junior-Entreprise® ?</h2>
-                    <p class="paragraphe">Les Junior-Entreprises (J.E.) sont des associations à vocation économique 
-                    et pédagogique, à but non lucratif. Associations étudiantes implantées 
-                    dans les établissements d’enseignement supérieur, les Junior-Entreprises 
-                    se définissent comme un vecteur d’employabilité et d’engagement des 
-                    étudiants. En leur permettant de mettre en pratique l’enseignement 
-                    théorique qu’ils reçoivent, les Junior-Entreprises constituent une 
-                    passerelle entre les études et l’entreprise, au service de l’insertion 
-                    professionnelle des étudiants. Ainsi, elles proposent des services 
-                    aux entreprises et permettent aux étudiants de mettre en pratique 
-                    leurs savoirs en répondant aux besoins de clients variés : 
-                    grands groupes, ETI, PME, TPE, administration ou particulier.</p>
-                </div>
+            
 
             <div id="quatrieme">
                 <h2 class="titre">Nos prestations</h2>
@@ -92,7 +96,7 @@
             </div>
         </div>
 
-        <br /> <!-- pour sauter une ligne -->
+        <br/> <!-- pour sauter une ligne -->
 
          <div class="conclusion">
             <h2>Plus d'infos ?</h2>
